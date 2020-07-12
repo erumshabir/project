@@ -9,6 +9,7 @@ fbprophet is an open source library published by Facebook.
 -I created web app using Voila and widgets "app.ipynb" this is based on "Avocado Price Prediction using FB Prophet.ipynb" 
 and show graph of data and predicted average prices in region of US.
 
+
 Execution of project:
 We need for jupyter notebook( we can download from here https://jupyter.org/install or any othr site)
 We write code "Avocado Price Prediction using FB Prophet.ipynb" on jupyter notebook (install libries)
@@ -32,6 +33,7 @@ place "avocado.csv",and "app.ipynb" inside voila folder
 and write this command voila app.ipynb in anaconda prompt.It will load file(website) on localhsot.
 
 
+
 For Deployment on heroku
 1. First, create an Heroku account (free account is fine for testing)
 2. Install Heroku on your machine: https://devcenter.heroku.com/articles/getting-started-with-python#set-up
@@ -43,8 +45,12 @@ iii-Edit the Procfile file by replacing notebooks/yourfilename.ipynb by the path
 iv-Commit everything
     -git add -A
     -git commit -m "My awesome app on Heroku!"
+    
 4:Open anaconda prompt:
 write hreoku login and it will open heroku on browser write username and password and login it will show login in prompt
+
 5: Write heroku create to create project on heroku
+
 6:Write git push heroku master for deployment
+
 7:When it done write heroku open it will open app on your browser.
