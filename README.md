@@ -30,3 +30,21 @@ pip install jupyter numpy matplotlib
 
 place "avocado.csv",and "app.ipynb" inside voila folder
 and write this command voila app.ipynb in anaconda prompt.It will load file(website) on localhsot.
+
+
+For Deployment on heroku
+1. First, create an Heroku account (free account is fine for testing)
+2. Install Heroku on your machine: https://devcenter.heroku.com/articles/getting-started-with-python#set-up
+3. Clone this repository,
+or create your own repository that follows the same structure:
+i- Create your Notebook and put it in the notebooks folder
+ii-Add the dependencies needed for running your Notebook in the requirements.txt file
+iii-Edit the Procfile file by replacing notebooks/yourfilename.ipynb by the path to your Notebook
+iv-Commit everything
+    -git add -A
+    -git commit -m "My awesome app on Heroku!"
+4:Open anaconda prompt:
+write hreoku login and it will open heroku on browser write username and password and login it will show login in prompt
+5: Write heroku create to create project on heroku
+6:Write git push heroku master for deployment
+7:When it done write heroku open it will open app on your browser.
