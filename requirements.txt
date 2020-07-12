@@ -1,0 +1,9 @@
+voila
+voila-material
+bqplot
+fbprophet
+numpy
+pandas
+plotly
+matplotlib
+ipywidgets
