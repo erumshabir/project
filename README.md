@@ -6,7 +6,7 @@ fbprophet is an open source library published by Facebook.
  regions of US.
 -This project plot graphs of given data and after predicting the future.We can see sverage price in All regions and also in particuler region.
 
--I created web app using Voila and widgets "app.ipynb" this is based on "Avocado Price Prediction using FB Prophet.ipynb" 
+-This created web app using Voila and widgets "app.ipynb" this is based on "Avocado Price Prediction using FB Prophet.ipynb" 
 and show graph of data and predicted average prices in region of US.
 
 
@@ -26,21 +26,14 @@ We need jupyter and voila
 open cmd(anaconda prompt) write following commnads
 
 mkdir voila
-
 cd voila
-
 python -m venv venv
-
-source venv/bin/activate
-
+set venv/bin/activate
 pip install voila
-
 pip install jupyter numpy matplotlib
 
-
 place "avocado.csv",and "app.ipynb" inside voila folder
-
-and write this command voila app.ipynb in anaconda prompt.It will load file(website) on localhsot.
+and write this command "voila app.ipynb" in anaconda prompt.It will load file(website) on localhsot.
 
 
 
