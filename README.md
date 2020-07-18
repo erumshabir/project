@@ -38,6 +38,7 @@ and write this command "voila app.ipynb" in anaconda prompt.It will load file(we
 
 
 For Deployment on heroku
+My app on heroku: https://predictsalesinus.herokuapp.com/ {type this url on your browser you can see my app}
 1. First, create an Heroku account (free account is fine for testing)
 2. Install Heroku on your machine: https://devcenter.heroku.com/articles/getting-started-with-python#set-up
 3. Clone this repository,
@@ -63,3 +64,5 @@ write hreoku login and it will open heroku on browser write username and passwor
 6. Write "git push heroku master" for deployment
 
 7. When it done write "heroku open" it will open app on your browser.
+
+You can share your app url with others
