@@ -45,11 +45,11 @@ or create your own repository that follows the same structure:
 
    i-  Create your Notebook and put it in the notebooks folder
    
-  ii-  Add the dependencies needed for running your Notebook in the requirements.txt file
+   ii-  Add the dependencies needed for running your Notebook in the requirements.txt file
   
-  iii- Edit the Procfile file by replacing notebooks/yourfilename.ipynb by the path to your Notebook
+   iii- Edit the Procfile file by replacing notebooks/yourfilename.ipynb by the path to your Notebook
   
-  iv-Commit everything
+   iv-   Commit everything
   
        -git add -A
        
