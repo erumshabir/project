@@ -30,10 +30,15 @@ We need jupyter and voila
 open cmd(anaconda prompt) write following commnads
 
 mkdir voila
+
 cd voila
+
 python -m venv venv
+
 set venv/bin/activate
+
 pip install voila
+
 pip install jupyter numpy matplotlib
 
 place "avocado.csv",and "app.ipynb" inside voila folder
