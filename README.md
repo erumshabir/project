@@ -2,9 +2,11 @@
 -It is project "Avocado Price Prediction using FB Prophet.ipynb" file from couresera, It predict the
 future sales in US and it region. fbprophet is used for prediction. 
 fbprophet is an open source library published by Facebook.
+
 -The data set is used in this project is "avocado.csv", this file consist  sales of avocados in different
  regions of US.
--This project plot graphs of given data and after predicting the future.We can see sverage price in All regions and also in particuler region.
+ 
+-This project plot graphs of given data and after predicting the future.We can see average price in All regions as well as in particuler region.
 
 -This created web app using Voila and widgets "app.ipynb" this is based on "Avocado Price Prediction using FB Prophet.ipynb" 
 and show graph of data and predicted average prices in region of US.
